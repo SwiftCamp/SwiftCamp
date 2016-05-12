@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SwiftCamp/SwiftCamp.svg?branch=master)](https://travis-ci.org/SwiftCamp/SwiftCamp)
+
 # SwiftCamp
 SwiftCamp Conference App
 
