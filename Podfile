@@ -6,6 +6,8 @@ target 'SwiftCamp' do
   use_frameworks!
 
   # Pods for SwiftCamp
+ pod 'RxSwift',    '~> 2.0'
+ pod 'RxCocoa',    '~> 2.0'
 
   target 'SwiftCampTests' do
     inherit! :search_paths

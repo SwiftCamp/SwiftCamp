@@ -1,0 +1,6 @@
+framework module Pods_SwiftCamp {
+  umbrella header "Pods-SwiftCamp-umbrella.h"
+
+  export *
+  module * { export * }
+}
