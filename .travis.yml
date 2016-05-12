@@ -10,6 +10,7 @@ env:
   matrix:
     - TEST_TYPE=iOS
 before_install:
+- gem install cocoapods -v '1.0.0'
 - |
   if [ "$TEST_TYPE" = iOS ]; then
     gem install xcpretty -N --no-ri --no-rdoc
