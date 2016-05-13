@@ -3,26 +3,12 @@ branches:
     - master
     - develop
 language: objective-c
-os: osx
+
 osx_image: xcode7.3
-cache:
-env:
-  matrix:
-    - TEST_TYPE=iOS
-before_install:
-- |
-  if [ "$TEST_TYPE" = iOS ]; then
-    gem install xcpretty -N --no-ri --no-rdoc
-  fi
-script:
-- |
-    if [ "$TEST_TYPE" = iOS ]; then
-      set -o pipefail
-      xcodebuild test -project SwiftCamp.xcworkspace -sdk iphonesimulator -scheme SwiftCamp -configuration Debug -destination "platform=iOS Simulator,name=iPhone 4s" -destination "platform=iOS Simulator,name=iPhone 6 Plus" GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | xcpretty -c
-      xcodebuild test -project SwiftCamp.xcworkspace -sdk iphonesimulator -scheme SwiftCamp -configuration Release -destination "platform=iOS Simulator,name=iPhone 4s" -destination "platform=iOS Simulator,name=iPhone 6 Plus" GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | xcpretty -c
-    fi
-after_success:
-- |
-    if [ "$TEST_TYPE" = iOS ]; then
-      bash <(curl -s https://codecov.io/bash)
-    fi
+
+before_install: 
+  - brew update
+  - brew upgrade xctool
+  - gem upgrade cocoapods
+
+script: xctool build -scheme SwiftCamp -sdk iphonesimulator9.2 -arch "i386" ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64"
