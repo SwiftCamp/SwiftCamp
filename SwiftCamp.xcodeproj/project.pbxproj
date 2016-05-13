@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		59B11B5C3F24930CBA147C29 /* Pods_SwiftCampTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0086EDA25F30DB714D6EB89 /* Pods_SwiftCampTests.framework */; };
+		AE1957371CE6078100F98782 /* SCPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1957361CE6078100F98782 /* SCPeopleViewController.swift */; };
+		AE19573A1CE607AE00F98782 /* People.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1957391CE607AE00F98782 /* People.storyboard */; };
+		AE19573F1CE607F400F98782 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE19573E1CE607F400F98782 /* Schedule.storyboard */; };
+		AE1957411CE6080700F98782 /* SCScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1957401CE6080700F98782 /* SCScheduleViewController.swift */; };
 		D90CE3C16C69F2427772D93C /* Pods_SwiftCampUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B8717280FBB9CAE3EBF60B /* Pods_SwiftCampUITests.framework */; };
 		D9DBE3461CBD0CA100ED7A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE3451CBD0CA100ED7A41 /* AppDelegate.swift */; };
-		D9DBE3481CBD0CA100ED7A41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE3471CBD0CA100ED7A41 /* ViewController.swift */; };
 		D9DBE34B1CBD0CA100ED7A41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DBE3491CBD0CA100ED7A41 /* Main.storyboard */; };
 		D9DBE34D1CBD0CA100ED7A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DBE34C1CBD0CA100ED7A41 /* Assets.xcassets */; };
 		D9DBE3501CBD0CA100ED7A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DBE34E1CBD0CA100ED7A41 /* LaunchScreen.storyboard */; };
@@ -41,11 +44,14 @@
 		0F373BF9CF78D797869BAA10 /* Pods-SwiftCampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCampTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCampTests/Pods-SwiftCampTests.debug.xcconfig"; sourceTree = "<group>"; };
 		44C3434776A18E12B9808472 /* Pods-SwiftCampUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCampUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCampUITests/Pods-SwiftCampUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BA1C1F4FED4D08AA2E769AE /* Pods-SwiftCampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCampTests/Pods-SwiftCampTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE1957361CE6078100F98782 /* SCPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCPeopleViewController.swift; sourceTree = "<group>"; };
+		AE1957391CE607AE00F98782 /* People.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = People.storyboard; sourceTree = "<group>"; };
+		AE19573E1CE607F400F98782 /* Schedule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
+		AE1957401CE6080700F98782 /* SCScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCScheduleViewController.swift; sourceTree = "<group>"; };
 		AEDCC7B14B83DE3FC4C7C1BD /* Pods-SwiftCampUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCampUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCampUITests/Pods-SwiftCampUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C779B5C9404747A21375BFF5 /* Pods-SwiftCamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCamp/Pods-SwiftCamp.release.xcconfig"; sourceTree = "<group>"; };
 		D9DBE3421CBD0CA100ED7A41 /* SwiftCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DBE3451CBD0CA100ED7A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9DBE3471CBD0CA100ED7A41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9DBE34A1CBD0CA100ED7A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9DBE34C1CBD0CA100ED7A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DBE34F1CBD0CA100ED7A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,6 +118,56 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AE1957341CE6062100F98782 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				AE1957381CE6079500F98782 /* Storyboards */,
+				AE1957351CE6076000F98782 /* ViewControllers */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		AE1957351CE6076000F98782 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE1957361CE6078100F98782 /* SCPeopleViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE1957381CE6079500F98782 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AE1957391CE607AE00F98782 /* People.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		AE19573B1CE607DA00F98782 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				AE19573D1CE607E700F98782 /* Storyboard */,
+				AE19573C1CE607E100F98782 /* ViewControllers */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		AE19573C1CE607E100F98782 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE1957401CE6080700F98782 /* SCScheduleViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE19573D1CE607E700F98782 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AE19573E1CE607F400F98782 /* Schedule.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
 		D9DBE3391CBD0CA100ED7A41 = {
 			isa = PBXGroup;
 			children = (
@@ -171,21 +227,13 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		D9E5E8CB1CE4E7E0008DD6A4 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D9E5E8CC1CE4E817008DD6A4 /* Main */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		D9E5E8CC1CE4E817008DD6A4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				D9DBE3491CBD0CA100ED7A41 /* Main.storyboard */,
-				D9DBE3471CBD0CA100ED7A41 /* ViewController.swift */,
 			);
-			path = Main;
+			name = Main;
+			path = ViewControllers/Main;
 			sourceTree = "<group>";
 		};
 		D9E5E8CD1CE4E830008DD6A4 /* Resources */ = {
@@ -200,7 +248,9 @@
 		D9E5E8CE1CE4E87E008DD6A4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D9E5E8CB1CE4E7E0008DD6A4 /* ViewControllers */,
+				AE19573B1CE607DA00F98782 /* Schedule */,
+				D9E5E8CC1CE4E817008DD6A4 /* Main */,
+				AE1957341CE6062100F98782 /* People */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -319,8 +369,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DBE3501CBD0CA100ED7A41 /* LaunchScreen.storyboard in Resources */,
+				AE19573A1CE607AE00F98782 /* People.storyboard in Resources */,
 				D9DBE34D1CBD0CA100ED7A41 /* Assets.xcassets in Resources */,
 				D9DBE34B1CBD0CA100ED7A41 /* Main.storyboard in Resources */,
+				AE19573F1CE607F400F98782 /* Schedule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,8 +533,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DBE3481CBD0CA100ED7A41 /* ViewController.swift in Sources */,
 				D9DBE3461CBD0CA100ED7A41 /* AppDelegate.swift in Sources */,
+				AE1957371CE6078100F98782 /* SCPeopleViewController.swift in Sources */,
+				AE1957411CE6080700F98782 /* SCScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

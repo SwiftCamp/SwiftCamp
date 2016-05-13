@@ -1,26 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Pmd-9g-IaL">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Tab Bar Controller-->
+        <scene sceneID="Y7b-N5-gyU">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftCamp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tabBarController id="Pmd-9g-IaL" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="rzF-Hl-aPl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EDo-PY-FfB" kind="relationship" relationship="viewControllers" id="WdX-Y0-gfo"/>
+                        <segue destination="5kC-to-l2H" kind="relationship" relationship="viewControllers" id="IjG-6r-XZX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYM-rO-uhS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="602" y="393"/>
+        </scene>
+        <!--SCPeopleViewController-->
+        <scene sceneID="5th-zC-NdG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="People" referencedIdentifier="SCPeopleViewController" id="EDo-PY-FfB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="People" image="Carrier" id="n6G-aa-je0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pxs-fq-bDI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392" y="798"/>
+        </scene>
+        <!--SCScheduleViewController-->
+        <scene sceneID="cNh-J9-Eyw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Schedule" referencedIdentifier="SCScheduleViewController" id="5kC-to-l2H" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Schedule" image="Schedule" id="Isv-og-3Dr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bwA-K5-fO7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804.5" y="798"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Carrier" width="19" height="24"/>
+        <image name="Schedule" width="22" height="21"/>
+    </resources>
 </document>
