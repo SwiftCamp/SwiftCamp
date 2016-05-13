@@ -11,6 +11,6 @@ xcode_scheme: SwiftCamp
 
 before_install: 
   - brew update
-  - gem upgrade cocoapods
+  - gem install cocoapods 1.0.0
 
 script: xctool build -scheme SwiftCamp -sdk iphonesimulator9.2 -arch "i386" ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64"
